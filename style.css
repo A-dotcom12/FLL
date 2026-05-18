@@ -1,0 +1,28 @@
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:12px;
+margin-bottom:25px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+animation: fadeIn 1.5s ease;
+}
+<style>@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(-30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+header{
+text-align:center;
+color:white;
+padding:50px 20px;
+animation: fadeIn 1.5s ease;
+}
+</styl
